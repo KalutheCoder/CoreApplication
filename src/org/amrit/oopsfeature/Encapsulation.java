@@ -35,4 +35,32 @@ public class Encapsulation {
          */
         this.balance = balance;
     }
+
+    private int rollno;
+    private String name;
+
+    public int getRollno() {
+        return rollno;
+    }
+
+    public void setRollno(int rollno) {
+        this.rollno = rollno;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public static void main(String[] args) {
+
+        Encapsulation e = new Encapsulation();
+        e.setRollno(1);
+        e.setName("amrit");
+        System.out.println(e.getRollno());
+        System.out.println(e.getName());
+    }
 }
