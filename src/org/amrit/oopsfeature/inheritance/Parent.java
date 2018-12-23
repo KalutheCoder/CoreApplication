@@ -25,12 +25,21 @@ public class Parent {
 
     }
 
+    class Dog extends Parent{
+
+        public void m1(){
+
+        }
+    }
+
     class Child extends Parent {
 
         public void methodTwo() {
 
         }
     }
+
+
 
     public static void main(String[] args) {
 

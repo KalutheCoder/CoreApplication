@@ -20,22 +20,6 @@ package org.amrit.oopsfeature;
  */
 public class Encapsulation {
 
-    private double balance;
-
-    public double getBalance() {
-        /**
-         * Validate User
-         */
-        return balance;
-    }
-
-    public void setBalance(double balance) {
-        /**
-         * Validate User
-         */
-        this.balance = balance;
-    }
-
     private int rollno;
     private String name;
 

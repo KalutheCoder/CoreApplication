@@ -10,7 +10,7 @@ public class Employee {
 
     public void display(int age, Name name) {
         System.out.println("Age : " + age);
-        System.out.println("FullName : " + name.firstName + " " + name.middleName + " " + name.lastName);
+        System.out.println("FullName : " + name.firstName + " -" + name.middleName + "-" + name.lastName);
     }
 
     public static void main(String[] args) {

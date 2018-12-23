@@ -23,7 +23,6 @@ public class ConstructorDemo {
     private String firstName, lastName;
 
     public ConstructorDemo() {
-        this(10);
         System.out.println("default constructor");
     }
 
